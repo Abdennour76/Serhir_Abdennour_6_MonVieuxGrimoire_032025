@@ -1,3 +1,4 @@
 P7-Dev-Web-livres/backend/config.env
 
-./frontend
+echo "/frontend" >> .gitignore
+/P7-Dev-Web-livres/frontend
