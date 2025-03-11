@@ -9,7 +9,7 @@ const sharpImg = async (req, res, next) => {
   try {
     await sharp(req.file.path)
       .resize({
-        width: 206,
+        width: 260,
         height: 260,
       })
       .webp({ quality: 80 })
